@@ -7206,3 +7206,11 @@
 <?php exit;?>07-31 19:47:13 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\libs\classes\mysql.class.php | 56
 <?php exit;?>07-31 19:49:53 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\libs\classes\mysql.class.php | 56
 <?php exit;?>07-31 19:49:53 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\libs\classes\mysql.class.php | 56
+<?php exit;?>07-31 19:52:33 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\libs\classes\mysql.class.php | 56
+<?php exit;?>07-31 19:52:33 | 2 | mysql_connect(): Access denied for user 'chenv_sql'@'localhost' (using password: YES) | phpcms\libs\classes\mysql.class.php | 56
+<?php exit;?>07-31 19:52:33 | 2 | mysql_error() expects parameter 1 to be resource, boolean given | phpcms\libs\classes\mysql.class.php | 388
+<?php exit;?>07-31 19:52:33 | 2 | mysql_errno() expects parameter 1 to be resource, boolean given | phpcms\libs\classes\mysql.class.php | 392
+<?php exit;?>07-31 19:52:33 | 2 | mysql_errno() expects parameter 1 to be resource, boolean given | phpcms\libs\classes\mysql.class.php | 392
+<?php exit;?>07-31 19:52:33 | 2 | mysql_error() expects parameter 1 to be resource, boolean given | phpcms\libs\classes\mysql.class.php | 388
+<?php exit;?>07-31 19:52:33 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\libs\classes\mysql.class.php | 56
+<?php exit;?>07-31 19:52:33 | 2 | mysql_connect(): Access denied for user 'chenv_sql'@'localhost' (using password: YES) | phpcms\libs\classes\mysql.class.php | 56
