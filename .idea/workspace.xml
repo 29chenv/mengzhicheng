@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a9f509-dd00-4280-97b6-a96c457f235d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_commons/caches_data/category_content_1.cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/caches_commons/caches_data/category_content_1.cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_commons/caches_data/sitelist.cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/caches_commons/caches_data/sitelist.cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_template/mzc/content/message.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_template/mzc/content/page_anli.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_template/mzc/content/page_contact.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_template/mzc/content/page_services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_template/mzc/content/show.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_tpl_data/caches_data/aad8be9587e68db35348fd3ff70d72ef.cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_tpl_data/caches_data/f396cb822c5036b7b3a1f324f139c6c1.cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/configs/system.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/configs/system.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install_package/caches/configs/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/configs/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/install_package/caches/error_log.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/error_log.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,15 +15,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.53648067">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/install_package/phpcms/templates/mzc/content/footer.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="67" selection-start-column="59" selection-end-column="67" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/install_package/phpcms/templates/mzc/content/header.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -55,15 +35,6 @@
                   <folding>
                     <element signature="n#style#0;n#pre#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/install_package/phpcms/modules/pay/spend_list.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -98,11 +69,29 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/install_package/caches/configs/system.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+                <state relative-caret-position="231">
+                  <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/install_package/phpcms/modules/admin/database.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/install_package/caches/configs/database.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -182,12 +171,14 @@
       <find>MZC</find>
       <find>siteid</find>
       <find>mengzhicheng</find>
+      <find>http://mengzhicheng.com/</find>
     </findStrings>
     <replaceStrings>
       <replace>{MZC_PATH}images/</replace>
       <replace>{MZC_PATH}map/</replace>
       <replace>{MZC_PATH}js/</replace>
       <replace>广东省惠州市惠城区演达大道金山龙庭三期别墅区黄金岛18号</replace>
+      <replace>http://119.29.170.233:81/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -211,6 +202,7 @@
         <option value="$PROJECT_DIR$/install_package/phpcms/templates/mzc/content/page_contact.html" />
         <option value="$PROJECT_DIR$/install_package/phpcms/templates/mzc/content/index.html" />
         <option value="$PROJECT_DIR$/install_package/caches/configs/system.php" />
+        <option value="$PROJECT_DIR$/install_package/caches/configs/database.php" />
       </list>
     </option>
   </component>
@@ -326,7 +318,7 @@
       <updated>1564481744516</updated>
       <workItem from="1564481745851" duration="3715000" />
       <workItem from="1564486727697" duration="281000" />
-      <workItem from="1564539858704" duration="24213000" />
+      <workItem from="1564539858704" duration="24583000" />
     </task>
     <task id="LOCAL-00001" summary="更新浏览器标签logo">
       <created>1564572969513</created>
@@ -339,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28209000" />
+    <option name="totallyTimeSpent" value="28579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -550,8 +542,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/install_package/caches/configs/system.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="231">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install_package/phpcms/modules/admin/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install_package/caches/configs/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
