@@ -138,7 +138,7 @@
                                         </div>
                                         <div class="media-body">
                                             <h2><?php echo $r['title'];?></h2>
-                                            <p class="ne-time"><span class="glyphicon glyphicon-calendar"></span>2017-6-8</p>
+                                            <p class="ne-time"><span class="glyphicon glyphicon-calendar"></span><?php echo date('Y-m-d', $r['inputtime']);?></p>
                                             <p>
                                                 <?php echo $r['description'];?>
                                             </p>
