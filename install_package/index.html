@@ -1,163 +1,386 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="zh-cn">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=7" />
-<title>PHPCMS演示站</title>
-<meta name="keywords" content="PHPCMS演示站">
-<meta name="description" content="PHPCMS演示站">
-<link href="http://mengzhicheng.com/statics/css/reset.css" rel="stylesheet" type="text/css" />
-<link href="http://mengzhicheng.com/statics/css/default_blue.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://mengzhicheng.com/statics/js/jquery.min.js"></script>
-<script type="text/javascript" src="http://mengzhicheng.com/statics/js/jquery.sgallery.js"></script>
-<script type="text/javascript" src="http://mengzhicheng.com/statics/js/search_common.js"></script>
-</head>
-<body>
-<div class="body-top">
-    <div class="content">
-        		<div id="announ">
-                 <ul>
-                                  </ul>
-            </div>
-     	 <script type="text/javascript">
-$(function(){
-	startmarquee('announ',22,1,500,3000);
-})
-</script>
-            <div class="login lh24 blue"><a href="http://mengzhicheng.com/index.php?m=content&c=rss&siteid=1" class="rss ib">rss</a><span class="rt"><script type="text/javascript">document.write('<iframe src="http://mengzhicheng.com/index.php?m=member&c=index&a=mini&forward='+encodeURIComponent(location.href)+'&siteid=1" allowTransparency="true"  width="500" height="24" frameborder="0" scrolling="no"></iframe>')</script></span></div>
-    </div>
-</div>
-<div class="header">
-	<div class="logo"><a href="http://mengzhicheng.com/"><img src="http://mengzhicheng.com/statics/images/v9/logo.jpg" /></a></div>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<title>梦志城建设工程</title>
+	<style>
+		.services-wrap{
+			height:240px;
+		}
+	</style>
 
-    <div class="search">
-    	<div class="tab" id="search">
-																<a href="javascript:;" onclick="setmodel(1, $(this));" style="outline:medium none;" hidefocus="true"  class="on" >新闻</a><span> | </span>										<a href="javascript:;" onclick="setmodel(3, $(this));" style="outline:medium none;" hidefocus="true" >图片</a><span> | </span>										<a href="javascript:;" onclick="setmodel(2, $(this));" style="outline:medium none;" hidefocus="true" >下载</a><span> | </span>										<a href="javascript:;" onclick="setmodel(52, $(this));" style="outline:medium none;" hidefocus="true" >专题</a>								</div>
+	<!-- core CSS -->
+	<link href="/statics/mzc/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/statics/mzc/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/statics/mzc/css/animate.min.css" rel="stylesheet">
+	<link href="/statics/mzc/css/prettyPhoto.css" rel="stylesheet">
+	<link href="/statics/mzc/css/main.css" rel="stylesheet">
+	<link href="/statics/mzc/css/responsive.css" rel="stylesheet">
+	<script src="/statics/mzc/js/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+	<script src="/statics/mzc/js/html5shiv.js"></script>
+	<script src="/statics/mzc/js/respond.min.js"></script>
+	<![endif]-->
+</head><!--/head-->
 
-        <div class="bd">
-            <form action="http://mengzhicheng.com/index.php" method="get" target="_blank">
-				<input type="hidden" name="m" value="search"/>
-				<input type="hidden" name="c" value="index"/>
-				<input type="hidden" name="a" value="init"/>
-				<input type="hidden" name="typeid" value="1" id="typeid"/>
-				<input type="hidden" name="siteid" value="1" id="siteid"/>
-                <input type="text" class="text" name="q" id="q"/><input type="submit" value="搜 索" class="button" />
-            </form>
-        </div>
-    </div>
+<body class="homepage">
 
-    <div class="banner"><script language="javascript" src="http://mengzhicheng.com/index.php?m=poster&c=index&a=show_poster&id=1"></script></div>
-    <div class="bk3"></div>
-    <div class="nav-bar">
-    	<map>
-    	        	<ul class="nav-site">
-			<li><a href="http://mengzhicheng.com"><span>首页</span></a></li>
-			            </ul>
-        		        </map>
-    </div> 
-	
-	</div>
-</div><!--main-->
-<div class="main">
-	<div class="col-left">
-    	<div class="news-hot">
-        	<div class="content">
-        	        	   
-                
-            </div>
-        </div>
-        <div class="slide">
-            <div class="FocusPic">
-                        	<div class="content" id="main-slide">
-                    <div class="changeDiv">  
-                                        </div>
-                </div>
-                        </div>
-            <div class="bk10"></div>
-        	<div class="box extend">
-            	<div class="col-left">争议</div>
-                <div class="col-auto">
-								</div>
-                <script language="javascript" src="http://mengzhicheng.com/caches/poster_js/10.js"></script>
-            </div>
-        </div>
-        <div class="bk10"></div>
-        <div class="box">
-        		<h5>图片新闻</h5>
-                      <ul class="content news-photo picbig">
-                         </ul>
-                    </div>
-        <div class="bk10"></div>
-            </div>
-    <div class="col-auto">
-    	<div class="box">
-        	 <h5 class="title-2">公告<a href="" class="more">&nbsp;</a></h5>
-             <div class="content">
-                                <ul class="list lh24 f14">
-                                   </ul>
+<header id="header">
+	<div class="top-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<p>广东梦志城建设工程有限公司</p>
+				</div>
+				<div class="col-xs-6">
+					<div class="top-number pull-right"><p><i class="fa fa-phone-square"></i>  0752-7186360</p></div>
+				</div>
+			</div>
+		</div><!--/.container-->
+	</div><!--/.top-bar-->
+
+	<nav class="navbar navbar-inverse" role="banner">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a style="margin-top: -15px;" class="navbar-brand" href="index.html"><img src="/statics/mzc/images//mengzhicheng/logo.png" alt=""></a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="/">网站首页</a></li>
+																	<li class=""><a  href="http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=11">关于我们</a></li>
+												<li class=""><a  href="http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=26">服务介绍</a></li>
+												<li class=""><a  href="http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=34">业务展示</a></li>
+												<li class=""><a  href="http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=9">新闻中心</a></li>
+												<li class=""><a  href="http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=12">联系我们</a></li>
+															</ul>
+			</div>
+		</div><!--/.container-->
+	</nav><!--/nav-->
+	<script>
+		$('.nav li').on().click(function(){
+			$(this).addClass('active');
+			$(this).siblings().removeClass('active');
+		});
+	</script>
+</header><!--/header--><!--main-->
+
+<section id="main-slider" class="no-margin">
+    <div class="carousel slide">
+        <ol class="carousel-indicators">
+                                    <li data-target="#main-slider" data-slide-to="0" class='active'></li>
+                        <li data-target="#main-slider" data-slide-to="1" ></li>
+                                </ol>
+        <div class="carousel-inner">
+                                    <div class="item active" style="background-image: url(http://mengzhicheng.com/uploadfile/2019/0731/20190731110928795.jpg)">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content">
+                                <h1 class="animation animated-item-1">准时交付，严守承诺</h1>
+                                <h2 class="animation animated-item-2">严守标准，履行合同，工程优质，信誉至上</h2>
+                                <a class="btn-slide animation animated-item-3" href="about-us.html">查看更多</a>
                             </div>
+                        </div>
+
+                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+                            <div class="slider-img">
+                                <!--<img src="/statics/mzc/images/slider/img1.png" class="img-responsive">-->
+                                <img style="width:60%" src="/statics/mzc/images/mengzhicheng/img1.png" class="img-responsive">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div><!--/.item-->
+                        <div class="item " style="background-image: url(http://mengzhicheng.com/uploadfile/2019/0731/20190731110555311.png)">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content">
+                                <h1 class="animation animated-item-1">工程讲质量，做事讲安全</h1>
+                                <h2 class="animation animated-item-2">经济讲效益，管理讲制度，办事讲原则，工作讲效率</h2>
+                                <a class="btn-slide animation animated-item-3" href="about-us.html">查看更多</a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+                            <div class="slider-img">
+                                <!--<img src="/statics/mzc/images/slider/img1.png" class="img-responsive">-->
+                                <img style="width:60%" src="/statics/mzc/images/mengzhicheng/img1.png" class="img-responsive">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div><!--/.item-->
+                                </div><!--/.carousel-inner-->
+    </div><!--/.carousel-->
+    <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+    </a>
+    <a class="next hidden-xs" href="#main-slider" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+    </a>
+</section><!--/#main-slider-->
+
+<section id="recent-works">
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>案例展示</h2>
+            <p class="lead">简洁大方的包装，给您一个高贵的感觉</p>
         </div>
-        <div class="bk10"></div>
-        <div class="box">
-        	<h5 class="title-2">专题<a href="http://mengzhicheng.com/index.php?m=special&c=index&a=special&siteid=1" class="more">更多>></a></h5>
-            <div class="content special">
-                                                </div>
-        </div>
-        <div class="bk10"></div>
-        <div class="box">
-            <h5 class="title-2"><span class="rt fn f12 tab SwapTab"><span class="fb">热点</span> | <span >评论</span> | <span>关注</span></span>排行</h5>
-            <div class="tab-content">
-            <ul class="content digg">
-										            </ul>
-            <ul class="content digg hidden">
-										            </ul>
-            <ul class="content digg hidden">
-										            </ul>
+        <div class="row">
+                                                                <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731050731473.png" alt="">
+                    <a class="overlay" href="blog-item.html">
+                        <div class="recent-work-inner">
+                            <h3>沥青公路 </h3>
+                            <p>沥青公路沥青公路沥青公路沥青公路</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div><div class="bk10"></div>
-        <div class="box">
-            <h5 class="title-2">调查问卷<a href="http://mengzhicheng.com/index.php?m=vote&c=index&siteid=1" class="more">更多>></a></h5>
- 
-<script language="javascript" src="http://mengzhicheng.com/index.php?m=vote&c=index&a=show&action=js&subjectid=1&type=3"></script>
+                        
+                                                        <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731022202328.png" alt="">
+                    <a class="overlay" href="blog-item.html">
+                        <div class="recent-work-inner">
+                            <h3>公园人行道 </h3>
+                            <p>公园人行道</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+                        <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731022242216.png" alt="">
+                    <a class="overlay" href="blog-item.html">
+                        <div class="recent-work-inner">
+                            <h3>街灯 </h3>
+                            <p>街灯</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+                        
+                                                        <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731022354859.png" alt="">
+                    <a class="overlay" href="blog-item.html">
+                        <div class="recent-work-inner">
+                            <h3>家居装修 </h3>
+                            <p>家居装修</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+                        
+                        </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/#recent-works-->
+
+<section id="services" class="service-item">
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>服务介绍</h2>
+            <p class="lead">全心全意为您着想，尽心尽力为您服务</p>
+        </div>
+
+        <div class="row">
+                                    <div class="col-sm-6 col-md-4">
+                <div class="media services-wrap wow fadeInDown">
+                    <div class="pull-left">
+                        <img class="img-responsive" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731023428848.png">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">建筑工程总承包</h3>
+                        <p>
+                            建筑工程总承包、脚手架搭设、木工班组、水电班组、铁工班组、建筑装饰装修等项目                        </p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-sm-6 col-md-4">
+                <div class="media services-wrap wow fadeInDown">
+                    <div class="pull-left">
+                        <img class="img-responsive" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731024942566.png">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">市政工程</h3>
+                        <p>
+                            市政工程专业承包、雨污分流管道铺设、混凝土、沥青路面铺设、路灯安装、人行道修复、护栏维修、景观绿化升级改造以及垃圾收集点提升改造等                           </p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-sm-6 col-md-4">
+                <div class="media services-wrap wow fadeInDown">
+                    <div class="pull-left">
+                        <img class="img-responsive" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731025111905.png">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">装饰装修工程</h3>
+                        <p>
+                            装饰装修专业承包、天花吊顶、内墙改造、门窗改造安装、地面铺装、水电铺设、办公场所布置、干挂大理石项目、硬包以及软包技术、强弱电系统                           </p>
+                    </div>
+                </div>
+            </div>
+                                </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/#services-->
+
+
+<section id="content">
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>最新资讯</h2>
+            <p class="lead">从这里了解我们</p>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 wow fadeInDown">
+                <div class="tab-wrap">
+                    <div class="media">
+                        <div class="parrent pull-left">
+                            <ul class="nav nav-tabs nav-stacked">
+                                                                                                <li class="active"><a href="#tab0" data-toggle="tab" class="analistic-00">你见过大蛇吗</a></li>
+                                                                <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">战略规划</a></li>
+                                                                                            </ul>
+                        </div>
+
+                        <div class="parrent media-body">
+                            <div class="tab-content">
+                                                                                                <div class="tab-pane fade  active in" id="tab0">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img style="width:266px;height:257px;"class="img-responsive" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731030003820.png">
+                                        </div>
+                                        <div class="media-body">
+                                            <h2>你见过大蛇吗</h2>
+                                            <p class="ne-time"><span class="glyphicon glyphicon-calendar"></span>2017-6-8</p>
+                                            <p>
+                                                技术骨干：许剑波公司职务及社会职务描述：公司副总经理，协助总经理制定并实施企业战略、经营计划等政策方略，实现公司的经营管理目标及发                                               </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="tab-pane fade " id="tab1">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img style="width:266px;height:257px;"class="img-responsive" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731031229486.png">
+                                        </div>
+                                        <div class="media-body">
+                                            <h2>战略规划</h2>
+                                            <p class="ne-time"><span class="glyphicon glyphicon-calendar"></span>2017-6-8</p>
+                                            <p>
+                                                在目前公司经营工作的基础上，合理制定今后几年发展目标，统筹安排，保证今后几年持续增长；要积极参加各项社会活动、广泛利用一切社会资源                                               </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                                            </div> <!--/.tab-content-->
+                        </div> <!--/.media-body-->
+                    </div> <!--/.media-->
+                </div><!--/.tab-wrap-->
+            </div><!--/.col-sm-6-->
+
+
+        </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/#content-->
+
+<section id="partner">
+    <div class="container">
+        <div class="center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+            <h2>合作伙伴</h2>
+        </div>
+
+        <div class="partners">
+            <ul>
+                                                <li>
+                    <a href="#"><img class="img-responsive wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="300ms" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731044750466.png" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;"></a>
+                </li>
+                                <li>
+                    <a href="#"><img class="img-responsive wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="600ms" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731044821448.png" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;"></a>
+                </li>
+                                <li>
+                    <a href="#"><img class="img-responsive wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="900ms" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731044843467.png" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;"></a>
+                </li>
+                                <li>
+                    <a href="#"><img class="img-responsive wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="1200ms" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731044901708.png" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;"></a>
+                </li>
+                                <li>
+                    <a href="#"><img class="img-responsive wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="1500ms" src="http://mengzhicheng.com/uploadfile/2019/0731/20190731044919766.png" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;"></a>
+                </li>
+                                            </ul>
         </div>
     </div>
-    <div class="bk10"></div>
-	
-	<div class="box blogroll ylink">
-    	<h5><a href="http://mengzhicheng.com/index.php?m=link&siteid=1" hidefocus="true" class="rt">更多>></a>友情链接<a href="http://mengzhicheng.com/index.php?m=link&c=index&a=register&siteid=1" class="red">申请链接</a></h5>
-        <div class="bk10"></div>
-	<ul class="colli imgul">
-                            </ul>
-          <div class="bk10"></div>
-	<div class="linka">
-		 	</div>
-	</div>
-</div>
-<script type="text/javascript"> 
-$(function(){
-	new slide("#main-slide","cur",310,260,1);//焦点图
-	new SwapTab(".SwapTab","span",".tab-content","ul","fb");//排行TAB
-})
-</script>
-<div class="footer">
-<p class="info">
-<a href="http://mengzhicheng.com/html/about/aboutus/" target="_blank">关于我们</a> |  
-<a href="http://mengzhicheng.com/html/about/contactus/" target="_blank">联系方式</a> |  
-<a href="http://test.phpcms.cn/index.php?m=content&c=index&a=lists&catid=4" target="_blank">版权声明</a> |  
-<a href="http://mengzhicheng.com/html/about/hr/" target="_blank">招聘信息</a> |  
-<a href="http://mengzhicheng.com/index.php?m=link" target="_blank">友情链接</a>
-<br />
-Powered by <strong><a href="http://www.phpcms.cn" target="_blank">PHPCMS</a></strong> <em>V9.5.10</em> &copy; 2011 <img src="http://mengzhicheng.com/statics/images/copyright.gif"/></p>
-</div>
-<script type="text/javascript">
-$(function(){
-	$(".picbig").each(function(i){
-		var cur = $(this).find('.img-wrap').eq(0);
-		var w = cur.width();
-		var h = cur.height();
-	   $(this).find('.img-wrap img').LoadImage(true, w, h,'http://mengzhicheng.com/statics/images/msg_img/loading.gif');
-	});
-})
-</script>
+    <!--/.container-->
+</section>
+
+<section id="conatcat-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="media contact-info wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+                    <div class="pull-left">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="media-body">
+                        <h2>联系我们</h2>
+                        <p>
+                                                                                                                地址:　广东省惠州市惠城区演达大道金山龙庭三期别墅区黄金岛18号<br>
+                            电话:　0752-71863600<br>
+                            邮箱:　boby@boby.com<br>
+                                                                                </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.container-->
+</section>
+
+<div id="bottom">
+    <div class=" wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+        <div class="map">
+            <iframe src="/statics/mzc/map/map.html"></iframe>
+        </div>
+    </div>
+</div><!--/#bottom-->
+
+<footer id="footer" class="midnight-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                Copyright &copy; 2015.mengzhicheng jianshe gongcheng All rights reserved.
+
+            </div>
+            <div class="col-sm-6">
+                <ul class="pull-right">
+                    <li><a href="/">首页</a></li>
+                                                            <li><a href="http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=11">关于</a></li>
+                                        <li><a href="http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=26">服务</a></li>
+                                        <li><a href="http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=34">业务</a></li>
+                                        <li><a href="http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=9">新闻</a></li>
+                                        <li><a href="http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=12">联系</a></li>
+                                                        </ul>
+            </div>
+        </div>
+    </div>
+</footer><!--/#footer-->
+
+<script src="/statics/mzc/js/jquery.js"></script>
+<script src="/statics/mzc/js/bootstrap.min.js"></script>
+<script src="/statics/mzc/js/jquery.prettyPhoto.js"></script>
+<script src="/statics/mzc/js/jquery.isotope.min.js"></script>
+<script src="/statics/mzc/js/main.js"></script>
+<script src="/statics/mzc/js/wow.min.js"></script>
 </body>
 </html>

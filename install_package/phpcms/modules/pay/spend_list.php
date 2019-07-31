@@ -4,7 +4,7 @@ pc_base::load_app_class('foreground','member');
 pc_base::load_sys_class('format', '', 0);
 pc_base::load_sys_class('form', '', 0);
 
-class spend_list extends foreground {
+class lspend_list extends foreground {
 	private $spend_db;
 	
 	function __construct() {

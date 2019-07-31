@@ -1,0 +1,80 @@
+{template "content","header"}
+<section id="services" class="service-item">
+    <div class="container">
+        <div class="center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+            <h2>服务介绍</h2>
+            <p class="lead">重品质、专技术、诚服务</p>
+        </div>
+
+        <div class="row">
+            {pc:get sql="SELECT * FROM v9_news WHERE catid=8 ORDER BY id ASC"}
+            {loop $data $r}
+            <div class="col-sm-6 col-md-4">
+                <div class="media services-wrap wow fadeInDown">
+                    <div class="pull-left">
+                        <img class="img-responsive" src="{$r[thumb]}">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">{$r[title]}</h3>
+                        <p>
+                            {$r[description]}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {/loop}
+            {/pc}
+
+        </div>
+        <!--/.row-->
+    </div>
+    <!--/.container-->
+</section>
+<section id="conatcat-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="media contact-info wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+                    <div class="pull-left">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="media-body">
+                        <h2>联系我们</h2>
+                        <p>
+                        {pc:get sql="SELECT * FROM v9_category WHERE catid=27"}
+                        {loop $data $v}
+                            <?php $add_arr=explode(',',$v['description']);?>
+                            地址:　{$add_arr[0]}<br>
+                            电话:　{$add_arr[1]}<br>
+                            邮箱:　{$add_arr[2]}<br>
+                        {/loop}
+                        {/pc}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.container-->
+</section>
+<section id="partner">
+    <div class="container">
+        <div class="center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+            <h2>合作伙伴</h2>
+        </div>
+
+        <div class="partners">
+            <ul>
+                {pc:get sql="SELECT * FROM v9_category WHERE parentid=28 ORDER BY catid ASC"}
+                {loop $data $k $r}
+                <li>
+                    <a href="#"><img class="img-responsive wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="<?php echo ($k+1)*300?>ms" src="{$r[image]}" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;"></a>
+                </li>
+                {/loop}
+                {/pc}
+            </ul>
+        </div>
+    </div>
+    <!--/.container-->
+</section>
+{template "content","footer"}

@@ -1,40 +1,42 @@
 {template "content","header"}
 <!--main-->
-<div class="main">
+<section style="min-height: 735px;margin-left:390px">
 	<div class="col-left">
-    	<div class="crumbs"><a href="{siteurl($siteid)}">首页</a><span> > </span>{catpos($catid)} 列表</div>
-    	{pc:content action="lists" catid="$catid" num="25" order="id DESC" page="$page"}
-        <ul class="list lh24 f14">
-{loop $data $r}
-	<li><span class="rt">{date('Y-m-d H:i:s',$r[inputtime])}</span>·<a href="{$r[url]}" target="_blank"{title_style($r[style])}>{$r[title]}</a></li>
-	{if $n%5==0}<li class="bk20 hr"></li>{/if}
-{/loop}
-        </ul>
-        <div id="pages" class="text-c">{$pages}</div>
-{/pc}
+    	<div class="crumbs  wow fadeInDown animated">
+            <h2><a href="{siteurl($siteid)}">首页</a><span> > </span>{catpos($catid)} 列表</h2>
+        </div>
+            {pc:content action="lists" catid="$catid" num="25" order="id DESC" page="$page"}
+            <ul class="list lh24 f14 wow fadeInDown animated">
+            {loop $data $r}
+                <h6><li><span class="rt">{date('Y-m-d H:i:s',$r[inputtime])}</span>·<a href="{$r[url]}" target="_blank"{title_style($r[style])}>{$r[title]}</a></li></h6>
+                {if $n%5==0}<li class="bk20 hr"></li>{/if}
+            {/loop}
+            </ul>
+            <div id="pages" class="text-c">{$pages}</div>
+            {/pc}
   </div>
     <div class="col-auto">
         <div class="box">
-            <h5 class="title-2">频道总排行</h5>
+            <h2 class="title-2 wow fadeInDown animated">频道总排行</h2>
              {pc:content action="hits" catid="$catid" num="10" order="views DESC" cache="3600"}
-            <ul class="content digg">
+            <ul class="content digg wow fadeInDown animated">
 				{loop $data $r}
-					<li><a href="{$r[url]}" target="_blank">{$r[title]}</a></li>
+                <h6><li><a href="{$r[url]}" target="_blank">{$r[title]}</a></li></h6>
 				{/loop}
             </ul>
             {/pc}
         </div>
         <div class="bk10"></div>
         <div class="box">
-            <h5 class="title-2">频道本月排行</h5>
+            <h2 class="title-2 wow fadeInDown animated">频道本月排行</h2>
              {pc:content action="hits" catid="$catid" num="8" order="monthviews DESC" cache="3600"}
-            <ul class="content rank">
+            <ul class="content rank wow fadeInDown animated">
 				{loop $data $r}
-				<li><span>{number_format($r[monthviews])}</span><a href="{$r[url]}"{title_style($r[style])} class="title" title="{$r[title]}">{str_cut($r[title],56,'...')}</a></li>
+                <h6><li><span>{number_format($r[monthviews])}</span><a href="{$r[url]}"{title_style($r[style])} class="title" title="{$r[title]}">{str_cut($r[title],56,'...')}</a></li></h6>
 				{/loop}
             </ul>
             {/pc}
         </div>
     </div>
-</div>
+</section>
 {template "content","footer"}

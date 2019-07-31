@@ -55,10 +55,10 @@
 
 			<div class="collapse navbar-collapse navbar-right">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="/">网站首页</a></li>
+					<li class="<?php if(!isset($_GET['catid']))echo 'active';?>"><a href="/">网站首页</a></li>
 					{pc:content action="category" catid="0" num="25" siteid="$siteid" order="listorder ASC"}
 						{loop $data $r}
-						<li><a href="{$r[url]}">{$r[catname]}</a></li>
+						<li class="<?php if(isset($_GET['catid'])&&$_GET['catid']==$r['catid'])echo 'active';?>"><a  href="{$r[url]}">{$r[catname]}</a></li>
 						{/loop}
 					{/pc}
 				</ul>

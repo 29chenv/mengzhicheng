@@ -1,0 +1,95 @@
+{template "content","header"}
+<section id="portfolio">
+    <div class="container">
+        <div class="center">
+            <h2>案例展示</h2>
+            <p class="lead">
+                案例展现实力
+            </p>
+        </div>
+
+
+        <ul class="portfolio-filter text-center">
+            <li><a class="btn btn-default active" href="#" data-filter="*">所有</a></li>
+            {pc:get sql="SELECT * FROM v9_category WHERE parentid=35 ORDER BY catid ASC"}
+            {loop $data $v}
+            <li><a class="btn btn-default" href="#" data-filter=".{$v[catdir]}">{$v[catname]}</a></li>
+            {/loop}
+            {/pc}
+
+        </ul><!--/#portfolio-filter-->
+
+        <div class="row">
+            <div class="portfolio-items isotope" style="position: relative; overflow: hidden; height: 602px;">
+                {pc:get sql="SELECT * FROM v9_category WHERE parentid=35 ORDER BY catid ASC"}
+                {loop $data $r}
+                    <?php $catid = $r['catid']?>
+                    {pc:get sql="SELECT * FROM v9_news WHERE catid=$catid ORDER BY id ASC"}
+                    {loop $data $r1}
+                    <div class="portfolio-item col-xs-12 col-sm-4 col-md-6 isotope-item {$r1[keywords]}" style="position: absolute; left: 0px; top: 0px; transform: translate3d(580px, 0px, 0px);">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="{$r1[thumb]}" alt="">
+                            <a class="overlay" href="#">
+                                <div class="recent-work-inner">
+                                    <h3>{$r1[title]} </h3>
+                                    <p>{$r1[description]}</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div><!--/.portfolio-item-->
+                    {/loop}
+                    {/pc}
+                {/loop}
+                {/pc}
+            </div>
+        </div>
+    </div>
+</section>
+<section id="conatcat-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="media contact-info wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+                    <div class="pull-left">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="media-body">
+                        <h2>联系我们</h2>
+                        <p>
+                        {pc:get sql="SELECT * FROM v9_category WHERE catid=27"}
+                        {loop $data $v}
+                            <?php $add_arr=explode(',',$v['description']);?>
+                            地址:　{$add_arr[0]}<br>
+                            电话:　{$add_arr[1]}<br>
+                            邮箱:　{$add_arr[2]}<br>
+                        {/loop}
+                        {/pc}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.container-->
+</section>
+<section id="partner">
+    <div class="container">
+        <div class="center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+            <h2>合作伙伴</h2>
+        </div>
+
+        <div class="partners">
+            <ul>
+                {pc:get sql="SELECT * FROM v9_category WHERE parentid=28 ORDER BY catid ASC"}
+                {loop $data $k $r}
+                <li>
+                    <a href="#"><img class="img-responsive wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="<?php echo ($k+1)*300?>ms" src="{$r[image]}" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;"></a>
+                </li>
+                {/loop}
+                {/pc}
+            </ul>
+        </div>
+    </div>
+    <!--/.container-->
+</section>
+{template "content","footer"}

@@ -34,18 +34,18 @@
 <script type="text/javascript">
 	// 百度地图API功能
 	var map = new BMap.Map("allmap");    // 创建Map实例
-	map.centerAndZoom(new BMap.Point(114.425918,23.119176), 17);  // 初始化地图,设置中心点坐标和地图级别	
+	map.centerAndZoom(new BMap.Point(114.433967,23.048147), 17);  // 初始化地图,设置中心点坐标和地图级别
 	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
-	var point = new BMap.Point(114.425918,23.119176);
+	var point = new BMap.Point(114.433967,23.048147);
 	var marker = new BMap.Marker(point);  // 创建标注
 	map.addOverlay(marker);              // 将标注添加到地图中
 	map.centerAndZoom(point, 17);
 	var opts = {
 	  width : 200,     // 信息窗口宽度
 	  height: 100,     // 信息窗口高度
-	  title : "帝景国际商务中心" , // 信息窗口标题
+	  title : "金山龙庭三期别墅区" , // 信息窗口标题
 	}
-	var infoWindow = new BMap.InfoWindow("地址：广东省惠州市惠城区云山西路2号帝景国际商务中心综合楼22层20号", opts);  // 创建信息窗口对象
+	var infoWindow = new BMap.InfoWindow("地址：广东省惠州市惠城区演达大道金山龙庭三期别墅区黄金岛18号", opts);  // 创建信息窗口对象
 	map.openInfoWindow(infoWindow,point);//初始开启信息窗口
 	marker.addEventListener("click", function(){//按钮点击开启信息窗口
 		map.openInfoWindow(infoWindow,point); 

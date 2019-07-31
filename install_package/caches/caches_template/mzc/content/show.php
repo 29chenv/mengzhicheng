@@ -1,4 +1,4 @@
-{template "content","header"}
+<?php defined('IN_PHPCMS') or exit('No permission resources.'); ?><?php include template("content","header"); ?>
 <section id="blog" class="container">
     <div class="center">
         <h2>新闻中心</h2>
@@ -17,15 +17,15 @@
                                 <span><i class="fa fa-user"></i> <a href="#">Admin</a></span>
                                 <!--<span><i class="fa fa-comment"></i> <a href="blog-item.html#comments">2 Comments</a></span>-->
                                 <?php $hit_id = 'c-'.$siteid.'-'.$id;?>
-                                {pc:get sql="SELECT * FROM v9_hits WHERE hitsid='$hit_id'"}
+                                <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=c3f89134d60ec9cad839dae3603b433a&sql=SELECT+%2A+FROM+v9_hits+WHERE+hitsid%3D%27%24hit_id%27\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_hits WHERE hitsid='$hit_id' LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
 
-                                {/pc}
-                                <span><i class="fa fa-play-circle-o"></i><a href="#">{$data[0][views]} Views</a></span>
+                                <?php if(defined('IN_ADMIN') && !defined('HTML')) {echo '</div>';}?>
+                                <span><i class="fa fa-play-circle-o"></i><a href="#"><?php echo $data['0']['views'];?> Views</a></span>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-10 blog-content">
-                            <h2>{$title}</h2>
-                            <pre style="border:0;background-color:#ffffff">{$content}</pre>
+                            <h2><?php echo $title;?></h2>
+                            <pre style="border:0;background-color:#ffffff"><?php echo $content;?></pre>
                             <!--<div class="post-tags">-->
                                 <!--<strong>标签:</strong> <a href="#">关键词</a> / <a href="#">关键词</a> / <a href="#">关键词</a>-->
                             <!--</div>-->
@@ -92,11 +92,11 @@
 
         </div><!--/.row-->
         <p class="f14">
-            <strong>上一篇：</strong><a href="{$previous_page[url]}">{$previous_page[title]}</a><br />
-            <strong>下一篇：</strong><a href="{$next_page[url]}">{$next_page[title]}</a>
+            <strong>上一篇：</strong><a href="<?php echo $previous_page['url'];?>"><?php echo $previous_page['title'];?></a><br />
+            <strong>下一篇：</strong><a href="<?php echo $next_page['url'];?>"><?php echo $next_page['title'];?></a>
         </p>
     </div><!--/.blog-->
 
 </section>
 
-{template "content","footer"}
+<?php include template("content","footer"); ?>
