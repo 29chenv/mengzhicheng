@@ -6,14 +6,9 @@
  * @license				http://www.phpcms.cn/license/
  * @lastmodify			2010-6-1
  */
- //PHPCMS根目录
-if($_GET['_debug']==1){
-    error_reporting(E_ALl);
-}
 define('PHPCMS_PATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
 
 include PHPCMS_PATH.'/phpcms/base.php';
 
 pc_base::creat_app();
-
 ?>

@@ -5,7 +5,7 @@ return array (
     'siteid' => '1',
     'name' => '默认站点',
     'dirname' => '',
-    'domain' => 'http://119.29.170.233:81/',
+    'domain' => 'http://mengzhicheng.com/',
     'site_title' => 'PHPCMS演示站',
     'keywords' => 'PHPCMS演示站',
     'description' => 'PHPCMS演示站',
@@ -24,7 +24,7 @@ return array (
   \'watermark_pos\' => \'9\',
 )',
     'uuid' => '338d51d1-b2b8-11e9-87a9-00155d048424',
-    'url' => 'http://119.29.170.233:81/',
+    'url' => 'http://mengzhicheng.com/',
   ),
 );
 ?>

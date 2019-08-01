@@ -108,7 +108,7 @@ class index extends admin {
 								$sqls = explode(';', $data);
 								foreach ($sqls as $sql) {
 									if (empty($sql)) continue;
-									if(mysql_get_server_info > '4.1' && $dbcharset) {
+									if(mysqli_get_server_info > '4.1' && $dbcharset) {
 										$sql = preg_replace("/TYPE=(InnoDB|MyISAM|MEMORY)( DEFAULT CHARSET=[^; ]+)?/", "TYPE=\\1 DEFAULT CHARSET=".$dbcharset,$sql);
 									}
 									$db->query($sql);

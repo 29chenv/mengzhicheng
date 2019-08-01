@@ -7214,3 +7214,230 @@
 <?php exit;?>07-31 19:52:33 | 2 | mysql_error() expects parameter 1 to be resource, boolean given | phpcms\libs\classes\mysql.class.php | 388
 <?php exit;?>07-31 19:52:33 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\libs\classes\mysql.class.php | 56
 <?php exit;?>07-31 19:52:33 | 2 | mysql_connect(): Access denied for user 'chenv_sql'@'localhost' (using password: YES) | phpcms\libs\classes\mysql.class.php | 56
+<?php exit;?>08-01 10:42:41 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:42:42 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:42:50 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:42:50 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:42:50 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:42:50 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:42:50 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:42:50 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:46:05 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:46:05 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:46:05 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:46:05 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:46:05 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:46:05 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:46:06 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:46:07 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:48:49 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:48:49 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:49:07 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:49:07 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:49:28 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:49:28 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:49:28 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:49:28 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:49:28 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:49:28 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:49:35 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\index.php | 147
+<?php exit;?>08-01 10:49:42 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:49:43 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:49:55 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:49:55 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:49:59 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:49:59 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:51:19 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:51:20 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:51:20 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:51:20 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:51:48 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:51:48 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:51:48 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\index.php | 147
+<?php exit;?>08-01 10:51:59 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:52:00 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:52:00 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:52:00 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:52:00 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:52:03 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:52:03 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:52:03 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:52:03 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:52:03 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:52:03 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:52:08 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:52:08 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:52:08 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:52:09 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:52:26 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:52:26 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:52:26 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\admin\classes\admin.class.php | 70
+<?php exit;?>08-01 10:52:26 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\classes\admin.class.php | 106
+<?php exit;?>08-01 10:52:27 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:52:27 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:52:32 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\classes\cache_api.class.php | 278
+<?php exit;?>08-01 10:52:33 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:52:34 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\classes\cache_api.class.php | 406
+<?php exit;?>08-01 10:52:34 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:52:36 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:52:36 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:52:36 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:52:37 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\libs\functions\global.func.php | 1450
+<?php exit;?>08-01 10:52:37 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\libs\functions\global.func.php | 1451
+<?php exit;?>08-01 10:53:16 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:53:16 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:53:16 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\libs\functions\global.func.php | 1450
+<?php exit;?>08-01 10:53:16 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\libs\functions\global.func.php | 1451
+<?php exit;?>08-01 10:53:16 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:53:17 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:53:17 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:53:17 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:53:17 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:53:17 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:53:17 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\libs\functions\global.func.php | 1450
+<?php exit;?>08-01 10:53:17 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\libs\functions\global.func.php | 1451
+<?php exit;?>08-01 10:53:17 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:53:18 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:53:18 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:53:18 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:53:22 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\classes\cache_api.class.php | 278
+<?php exit;?>08-01 10:53:24 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:53:24 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\classes\cache_api.class.php | 406
+<?php exit;?>08-01 10:53:25 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:53:27 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:53:27 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:53:27 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:53:29 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\libs\functions\global.func.php | 1450
+<?php exit;?>08-01 10:53:29 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\libs\functions\global.func.php | 1451
+<?php exit;?>08-01 10:53:48 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:53:49 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:53:56 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\index.tpl.php | 81
+<?php exit;?>08-01 10:53:57 | 8192 | mysqli_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:53:57 | 2 | mysqli_get_server_info(): Access denied for user ''@'localhost' (using password: NO) | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:53:57 | 2 | mysqli_get_server_info(): A link to the server could not be established | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:53:57 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\libs\functions\global.func.php | 1450
+<?php exit;?>08-01 10:53:57 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\libs\functions\global.func.php | 1451
+<?php exit;?>08-01 10:53:57 | 8192 | mysqli_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:53:57 | 2 | mysqli_get_server_info(): Access denied for user ''@'localhost' (using password: NO) | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:53:57 | 2 | mysqli_get_server_info(): A link to the server could not be established | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:53:57 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\templates\left.tpl.php | 4
+<?php exit;?>08-01 10:53:58 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:53:58 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:54:02 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\classes\cache_api.class.php | 278
+<?php exit;?>08-01 10:54:03 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:54:04 | 2 | Invalid argument supplied for foreach() | phpcms\modules\admin\classes\cache_api.class.php | 406
+<?php exit;?>08-01 10:54:04 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:54:05 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:54:06 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:54:06 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\admin\cache_all.php | 49
+<?php exit;?>08-01 10:54:07 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\libs\functions\global.func.php | 1450
+<?php exit;?>08-01 10:54:07 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\libs\functions\global.func.php | 1451
+<?php exit;?>08-01 10:54:10 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 10:54:10 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 10:54:10 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 10:54:10 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 10:54:10 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 10:54:10 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\libs\functions\global.func.php | 1450
+<?php exit;?>08-01 10:54:10 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\libs\functions\global.func.php | 1451
+<?php exit;?>08-01 10:54:10 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 10:54:10 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:54:10 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:54:10 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:54:10 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:54:10 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:54:10 | 2 | mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given | phpcms\libs\classes\mysql.class.php | 383
+<?php exit;?>08-01 10:54:10 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 10:54:10 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 10:54:10 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\libs\functions\global.func.php | 1450
+<?php exit;?>08-01 10:54:10 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\libs\functions\global.func.php | 1451
+<?php exit;?>08-01 10:54:10 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 10:55:06 | 8192 | mysqli_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:55:06 | 2 | mysqli_get_server_info(): Access denied for user ''@'localhost' (using password: NO) | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:55:06 | 2 | mysqli_get_server_info(): A link to the server could not be established | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:55:06 | 2 | array_keys() expects parameter 1 to be array, boolean given | phpcms\libs\functions\global.func.php | 1450
+<?php exit;?>08-01 10:55:06 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\libs\functions\global.func.php | 1451
+<?php exit;?>08-01 10:55:06 | 8192 | mysqli_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:55:06 | 2 | mysqli_get_server_info(): Access denied for user ''@'localhost' (using password: NO) | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:55:06 | 2 | mysqli_get_server_info(): A link to the server could not be established | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:55:10 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 10:55:10 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 10:56:47 | 8192 | mysqli_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:56:47 | 2 | mysqli_get_server_info(): Access denied for user ''@'localhost' (using password: NO) | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:56:47 | 2 | mysqli_get_server_info(): A link to the server could not be established | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 10:56:47 | 8192 | mysqli_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:56:47 | 2 | mysqli_get_server_info(): Access denied for user ''@'localhost' (using password: NO) | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:56:47 | 2 | mysqli_get_server_info(): A link to the server could not be established | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 10:57:03 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 10:57:03 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 10:58:11 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 10:58:11 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 10:58:11 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 10:58:11 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 10:58:11 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 10:58:11 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 10:58:11 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 10:58:11 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 10:58:11 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 10:58:13 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 10:58:13 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 10:58:24 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 10:58:24 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 10:59:02 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 10:59:02 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 10:59:02 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 10:59:02 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 10:59:02 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 10:59:02 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 10:59:02 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 10:59:02 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 10:59:02 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 11:01:22 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 11:01:22 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 11:01:31 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 11:01:31 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 11:01:31 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 11:01:31 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 11:01:31 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 11:01:31 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 11:01:31 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 11:01:31 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 11:01:31 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 11:01:34 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 11:01:34 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 11:01:46 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 11:01:46 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 11:05:09 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 11:05:09 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 11:07:42 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 11:07:42 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>08-01 11:07:48 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 11:07:48 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 11:07:48 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 11:07:48 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 11:07:48 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 11:07:48 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 11:07:48 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 11:07:48 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 11:07:48 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 11:08:17 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 11:08:17 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 11:08:17 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 11:08:17 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 11:08:17 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 11:08:17 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 11:08:18 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 11:08:18 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 11:08:18 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 11:08:20 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 11:08:20 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 11:08:20 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 11:08:24 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 11:08:24 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 11:08:24 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 11:08:26 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | caches\caches_model\caches_data\content_output.class.php | 42
+<?php exit;?>08-01 11:08:26 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | caches\caches_model\caches_data\content_output.class.php | 71
+<?php exit;?>08-01 11:08:26 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 91
+<?php exit;?>08-01 11:08:26 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 93
+<?php exit;?>08-01 11:08:26 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
+<?php exit;?>08-01 11:14:04 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 11:14:04 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\libs\classes\update.class.php | 35

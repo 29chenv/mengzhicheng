@@ -395,7 +395,7 @@ final class mysql {
 		if(!is_resource($this->link)) {
 			$this->connect();
 		}
-		return mysql_get_server_info($this->link);
+		return mysqli_get_server_info($this->link);
 	}
 
 	public function close() {

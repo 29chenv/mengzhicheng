@@ -3,14 +3,14 @@
 <section id="main-slider" class="no-margin">
     <div class="carousel slide">
         <ol class="carousel-indicators">
-            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=87f89ff5ab78e94273e1d866f8843913&sql=SELECT+%2A+FROM+v9_category+where+parentid%3D14+order+by+catid+desc\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_category where parentid=14 order by catid desc LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
+            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=87f89ff5ab78e94273e1d866f8843913&sql=SELECT+%2A+FROM+v9_category+where+parentid%3D14+order+by+catid+desc\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_category where parentid=14 order by catid desc LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
             <?php $n=1; if(is_array($data)) foreach($data AS $k => $r) { ?>
             <li data-target="#main-slider" data-slide-to="<?php echo $k;?>" <?php if($k==0)echo "class='active'";?>></li>
             <?php $n++;}unset($n); ?>
             <?php if(defined('IN_ADMIN') && !defined('HTML')) {echo '</div>';}?>
         </ol>
         <div class="carousel-inner">
-            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=87f89ff5ab78e94273e1d866f8843913&sql=SELECT+%2A+FROM+v9_category+where+parentid%3D14+order+by+catid+desc\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_category where parentid=14 order by catid desc LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
+            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=87f89ff5ab78e94273e1d866f8843913&sql=SELECT+%2A+FROM+v9_category+where+parentid%3D14+order+by+catid+desc\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_category where parentid=14 order by catid desc LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
             <?php $n=1; if(is_array($data)) foreach($data AS $k => $r) { ?>
             <div class="item <?php if($k==0)echo 'active';?>" style="background-image: url(<?php echo $r['image'];?>)">
                 <div class="container">
@@ -52,10 +52,10 @@
             <p class="lead">简洁大方的包装，给您一个高贵的感觉</p>
         </div>
         <div class="row">
-        <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=ff7e88e02fd5187f5f1551a2851c2471&sql=SELECT+%2A+FROM+v9_category+WHERE+parentid%3D35+ORDER+BY+catid+ASC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_category WHERE parentid=35 ORDER BY catid ASC LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
+        <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=ff7e88e02fd5187f5f1551a2851c2471&sql=SELECT+%2A+FROM+v9_category+WHERE+parentid%3D35+ORDER+BY+catid+ASC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_category WHERE parentid=35 ORDER BY catid ASC LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
         <?php $n=1;if(is_array($data)) foreach($data AS $r) { ?>
             <?php $catid = $r['catid']?>
-            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=1ea20149b0acf78be79d0d65385b4e66&sql=SELECT+%2A+FROM+v9_news+WHERE+catid%3D%24catid+ORDER+BY+id+ASC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_news WHERE catid=$catid ORDER BY id ASC LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
+            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=1ea20149b0acf78be79d0d65385b4e66&sql=SELECT+%2A+FROM+v9_news+WHERE+catid%3D%24catid+ORDER+BY+id+ASC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_news WHERE catid=$catid ORDER BY id ASC LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
             <?php $n=1;if(is_array($data)) foreach($data AS $r1) { ?>
             <div class="col-xs-12 col-sm-4 col-md-3">
                 <div class="recent-work-wrap">
@@ -85,7 +85,7 @@
         </div>
 
         <div class="row">
-            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=6c8a840a5a7d2ed3d54d6269c303cd3a&sql=SELECT+%2A+FROM+v9_news+WHERE+catid%3D8+ORDER+BY+id+ASC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_news WHERE catid=8 ORDER BY id ASC LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
+            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=6c8a840a5a7d2ed3d54d6269c303cd3a&sql=SELECT+%2A+FROM+v9_news+WHERE+catid%3D8+ORDER+BY+id+ASC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_news WHERE catid=8 ORDER BY id ASC LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
             <?php $n=1;if(is_array($data)) foreach($data AS $r) { ?>
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
@@ -119,7 +119,7 @@
                     <div class="media">
                         <div class="parrent pull-left">
                             <ul class="nav nav-tabs nav-stacked">
-                                <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=2014b4aac1937db88c0f630db25fdf17&sql=SELECT+%2A+FROM+v9_news+where+catid%3D9+order+by+catid+desc\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_news where catid=9 order by catid desc LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
+                                <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=2014b4aac1937db88c0f630db25fdf17&sql=SELECT+%2A+FROM+v9_news+where+catid%3D9+order+by+catid+desc\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_news where catid=9 order by catid desc LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
                                 <?php $n=1; if(is_array($data)) foreach($data AS $k => $r) { ?>
                                 <li class="<?php if($k==0)echo active?>"><a href="#tab<?php echo $k;?>" data-toggle="tab" class="analistic-0<?php echo $k;?>"><?php echo $r['title'];?></a></li>
                                 <?php $n++;}unset($n); ?>
@@ -129,7 +129,7 @@
 
                         <div class="parrent media-body">
                             <div class="tab-content">
-                                <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=2014b4aac1937db88c0f630db25fdf17&sql=SELECT+%2A+FROM+v9_news+where+catid%3D9+order+by+catid+desc\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_news where catid=9 order by catid desc LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
+                                <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=2014b4aac1937db88c0f630db25fdf17&sql=SELECT+%2A+FROM+v9_news+where+catid%3D9+order+by+catid+desc\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_news where catid=9 order by catid desc LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
                                 <?php $n=1; if(is_array($data)) foreach($data AS $k => $r) { ?>
                                 <div class="tab-pane fade <?php if($k==0)echo ' active in';?>" id="tab<?php echo $k;?>">
                                     <div class="media">
@@ -166,7 +166,7 @@
 
         <div class="partners">
             <ul>
-                <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=5f4846d3c911cd1a11b338ca138d2589&sql=SELECT+%2A+FROM+v9_category+WHERE+parentid%3D28+ORDER+BY+catid+ASC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_category WHERE parentid=28 ORDER BY catid ASC LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
+                <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=5f4846d3c911cd1a11b338ca138d2589&sql=SELECT+%2A+FROM+v9_category+WHERE+parentid%3D28+ORDER+BY+catid+ASC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_category WHERE parentid=28 ORDER BY catid ASC LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
                 <?php $n=1; if(is_array($data)) foreach($data AS $k => $r) { ?>
                 <li>
                     <a href="#"><img class="img-responsive wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="<?php echo ($k+1)*300?>ms" src="<?php echo $r['image'];?>" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;"></a>
@@ -190,7 +190,7 @@
                     <div class="media-body">
                         <h2>联系我们</h2>
                         <p>
-                            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=101a94476dace0ad37e2ae349cbd2340&sql=SELECT+%2A+FROM+v9_category+WHERE+catid%3D27\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_category WHERE catid=27 LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
+                            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"get\" data=\"op=get&tag_md5=101a94476dace0ad37e2ae349cbd2340&sql=SELECT+%2A+FROM+v9_category+WHERE+catid%3D27\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}pc_base::load_sys_class("get_model", "model", 0);$get_db = new get_model();$r = $get_db->sql_query("SELECT * FROM v9_category WHERE catid=27 LIMIT 20");while(($s = $get_db->fetch_next()) != false) {$a[] = $s;}$data = $a;unset($a);?>
                             <?php $n=1;if(is_array($data)) foreach($data AS $v) { ?>
                             <?php $add_arr=explode(',',$v['description']);?>
                             地址:　<?php echo $add_arr['0'];?><br>

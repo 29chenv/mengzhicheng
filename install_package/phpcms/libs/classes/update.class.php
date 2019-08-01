@@ -32,7 +32,7 @@ class update {
 			'release'=>PC_RELEASE,
 			'os'=>PHP_OS,
 			'php'=>phpversion(),
-			'mysql'=>mysql_get_server_info(),
+			'mysql'=>mysqli_get_server_info(),
 			'browser'=>urlencode($_SERVER['HTTP_USER_AGENT']),
 			'username'=>urlencode(param::get_cookie('admin_username')),
 			'email'=> urlencode(param::get_cookie('admin_email')),

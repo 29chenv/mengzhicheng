@@ -21,13 +21,13 @@ return array(
 
 //附件相关配置
 'upload_path' => PHPCMS_PATH.'uploadfile/',
-'upload_url' => 'http://119.29.170.233:81/uploadfile/', //附件路径
+'upload_url' => 'http://mengzhicheng.com/uploadfile/', //附件路径
 'attachment_stat' => '1',//是否记录附件使用状态 0 统计 1 统计， 注意: 本功能会加重服务器负担
 
-'js_path' => 'http://119.29.170.233:81/statics/js/', //CDN JS
-'css_path' => 'http://119.29.170.233:81/statics/css/', //CDN CSS
-'img_path' => 'http://119.29.170.233:81/statics/images/', //CDN img
-'app_path' => 'http://119.29.170.233:81/',//动态域名配置地址
+'js_path' => 'http://mengzhicheng.com/statics/js/', //CDN JS
+'css_path' => 'http://mengzhicheng.com/statics/css/', //CDN CSS
+'img_path' => 'http://mengzhicheng.com/statics/images/', //CDN img
+'app_path' => 'http://mengzhicheng.com/',//动态域名配置地址
 
 'charset' => 'utf-8', //网站字符集
 'timezone' => 'Etc/GMT-8', //网站时区（只对php 5.1以上版本有效），Etc/GMT-8 实际表示的是 GMT+8

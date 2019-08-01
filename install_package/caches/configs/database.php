@@ -2,13 +2,13 @@
 
 return array (
 	'default' => array (
-		'hostname' => '119.29.170.233',
+		'hostname' => 'localhost',
 		'port' => 3306,
 		'database' => 'phpcmsv9',
-		'username' => 'chenv_sql',
-//		'username' => 'root',
-//		'password' => '123456',
-		'password' => 'VD$iU@qmgDEU',
+//		'username' => 'chenv_sql',
+		'username' => 'root',
+		'password' => '123456',
+//		'password' => 'VD$iU@qmgDEU',
 		'tablepre' => 'v9_',
 		'charset' => 'utf8',
 		'type' => 'mysql',
