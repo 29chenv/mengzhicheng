@@ -39,7 +39,7 @@ class content_output {
 		$search = "/(alt\s*=\s*|title\s*=\s*)[\"|\'](.+?)[\"|\']/ise";
 		$replace = "\$this->_base64_encode('\\1','\\2')";
 		$replace1 = "\$this->_base64_decode('\\1','\\2')";
-		$txt = preg_replace($search, $replace, $txt);
+		$txt = preg_replace_callback($search, $replace, $txt);
 		$keywords = $this->data['keywords'];
 		if($keywords) $keywords = strpos(',',$keywords) === false ? explode(' ',$keywords) : explode(',',$keywords);
 		if($link_mode && !empty($keywords)) {
@@ -63,12 +63,12 @@ class content_output {
 				}
 			}
 			if($replacenum != '') {
-				$txt = preg_replace($word1, $replacement, $txt, $replacenum);
+				$txt = preg_replace_callback($word1, $replacement, $txt, $replacenum);
 			} else {
 				$txt = str_replace($word2, $replacement, $txt);
 			}
 		}
-		$txt = preg_replace($search, $replace1, $txt);
+		$txt = preg_replace_callback($search, $replace1, $txt);
 		return $txt;
 	}
 	function title($field, $value) {
