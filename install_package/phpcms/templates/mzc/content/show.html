@@ -16,16 +16,12 @@
                                 <span id="publish_date">07  NOV</span>
                                 <span><i class="fa fa-user"></i> <a href="#">Admin</a></span>
                                 <!--<span><i class="fa fa-comment"></i> <a href="blog-item.html#comments">2 Comments</a></span>-->
-                                <?php $hit_id = 'c-'.$siteid.'-'.$id;?>
-                                {pc:get sql="SELECT * FROM v9_hits WHERE hitsid='$hit_id'"}
-
-                                {/pc}
                                 <span><i class="fa fa-play-circle-o"></i><a href="#">{$data[0][views]} Views</a></span>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-10 blog-content">
                             <h2>{$title}</h2>
-                            <pre style="border:0;background-color:#ffffff">{$content}</pre>
+                            <pre style="border:0;background-color:#ffffff">{$thumb}</pre>
                             <!--<div class="post-tags">-->
                                 <!--<strong>标签:</strong> <a href="#">关键词</a> / <a href="#">关键词</a> / <a href="#">关键词</a>-->
                             <!--</div>-->
