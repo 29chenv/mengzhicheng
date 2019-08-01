@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="67a9f509-dd00-4280-97b6-a96c457f235d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_commons/caches_data/category_content_1.cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/caches_commons/caches_data/category_content_1.cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_commons/caches_data/common.cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/caches_commons/caches_data/common.cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_commons/caches_data/modules.cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/caches_commons/caches_data/modules.cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_commons/caches_data/sitelist.cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/caches_commons/caches_data/sitelist.cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/caches_template/mzc/content/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/caches_template/mzc/content/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/configs/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/configs/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/install_package/caches/configs/system.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/configs/system.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/error_log.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/error_log.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/phpcms/libs/classes/mysql.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/phpcms/libs/classes/mysql.class.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +42,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/install_package/phpcms/libs/classes/mysql.class.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                <state relative-caret-position="294">
+                  <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
                   <folding>
                     <element signature="e#7#182#0#PHP" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
@@ -65,11 +56,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/install_package/caches/configs/system.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="609">
-                  <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+                <state relative-caret-position="296">
+                  <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
                 </state>
               </provider>
             </entry>
@@ -168,12 +159,12 @@
       <find>MZC</find>
       <find>siteid</find>
       <find>mengzhicheng</find>
-      <find>http://mengzhicheng.com/</find>
       <find>mysql_get_server_info()</find>
       <find>undefined function mysql_get_server_info()</find>
       <find>mysqlv</find>
-      <find>mysql_get_server_info</find>
       <find>119.29.170.233</find>
+      <find>mysql_get_server_info</find>
+      <find>http://mengzhicheng.com/</find>
     </findStrings>
     <replaceStrings>
       <replace>{MZC_PATH}images/</replace>
@@ -186,6 +177,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -208,8 +204,8 @@
         <option value="$PROJECT_DIR$/install_package/phpcms/modules/admin/index.php" />
         <option value="$PROJECT_DIR$/install_package/phpcms/libs/classes/mysql.class_bak.php" />
         <option value="$PROJECT_DIR$/install_package/caches/configs/database.php" />
-        <option value="$PROJECT_DIR$/install_package/caches/configs/system.php" />
         <option value="$PROJECT_DIR$/install_package/phpcms/libs/classes/mysql.class.php" />
+        <option value="$PROJECT_DIR$/install_package/caches/configs/system.php" />
       </list>
     </option>
   </component>
@@ -333,17 +329,33 @@
       <option name="project" value="LOCAL" />
       <updated>1564572969513</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更改为mysqli（php7）">
+      <created>1564629300273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564629300273</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30740000" />
+    <option name="totallyTimeSpent" value="31338000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09434968" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09434968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -352,11 +364,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30846325" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962137" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30846325" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -367,9 +379,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新浏览器标签logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新浏览器标签logo" />
+    <MESSAGE value="更改为mysqli（php7）" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改为mysqli（php7）" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/install_package/statics/mzc/js/jquery.min.js">
@@ -636,22 +675,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/install_package/caches/configs/system.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/install_package/phpcms/libs/classes/mysql.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="294">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#7#182#0#PHP" expanded="true" />
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install_package/caches/configs/system.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
         </state>
       </provider>
     </entry>

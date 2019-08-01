@@ -16,7 +16,7 @@ return array (
     'description' => '',
     'parentdir' => '',
     'catdir' => 'aboutus',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=11',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=11',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -59,7 +59,7 @@ return array (
     'description' => '服务介绍',
     'parentdir' => '',
     'catdir' => 'services',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=26',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=26',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -102,7 +102,7 @@ return array (
     'description' => '业务展示',
     'parentdir' => '',
     'catdir' => 'yewu',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=34',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=34',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -145,7 +145,7 @@ return array (
     'description' => '',
     'parentdir' => '',
     'catdir' => 'news',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=9',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=9',
     'items' => '2',
     'hits' => '0',
     'setting' => 'array (
@@ -196,7 +196,7 @@ return array (
     'description' => '',
     'parentdir' => '',
     'catdir' => 'contact',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=12',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=12',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -239,7 +239,7 @@ return array (
     'description' => '',
     'parentdir' => '',
     'catdir' => 'lunbotu',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=14',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=14',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -290,7 +290,7 @@ return array (
     'description' => '经济讲效益，管理讲制度，办事讲原则，工作讲效率',
     'parentdir' => 'lunbotu/',
     'catdir' => 'lunbotu_1',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=15',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=15',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -341,7 +341,7 @@ return array (
     'description' => '严守标准，履行合同，工程优质，信誉至上',
     'parentdir' => 'lunbotu/',
     'catdir' => 'lunbotu_2',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=16',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=16',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -392,7 +392,7 @@ return array (
     'description' => '',
     'parentdir' => '',
     'catdir' => 'members',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=17',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=17',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -443,7 +443,7 @@ return array (
     'description' => '全面组织实施董事会的有关决议和规定，全面完成董事会下达的各项指标，并将实施情况向董事会汇报。',
     'parentdir' => 'members/',
     'catdir' => 'chenpeng',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=18',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=18',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -494,7 +494,7 @@ return array (
     'description' => '协助总经理制定并实施企业战略、经营计划等政策方略，实现公司的经营管理目标及发展目标',
     'parentdir' => 'members/',
     'catdir' => 'xujianbo',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=19',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=19',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -546,7 +546,7 @@ return array (
 ',
     'parentdir' => 'members/',
     'catdir' => 'chengqianli',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=20',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=20',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -598,7 +598,7 @@ return array (
 ',
     'parentdir' => 'members/',
     'catdir' => 'renxibo',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=21',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=21',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -649,7 +649,7 @@ return array (
     'description' => '广东梦志城建设工程有限公司成立于2015年08月04日，主要从事室内装饰装修工程、建筑工程施工、市政道路、路灯、绿化工程以及建筑劳务分包等工程项目，公司已获得房屋建筑工程施工总承包三级、市政公用工程施工总承包三级、环保工程专业承包三级、钢结构工程专业承包三级、城市及道路照明、建筑装修装饰工程专业承包二级等经营资质。公司内设行政部、总工办、质量安全管理部、工程技术部、经营部、财务部。我司注册资本金5000万元，拥有各类大中型工程机械设备及检测仪器，现有从业人员300余人，拥有各类管理人员以及各类施工班组、劳',
     'parentdir' => '',
     'catdir' => 'introduction',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=22',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=22',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -700,7 +700,7 @@ return array (
     'description' => '',
     'parentdir' => '',
     'catdir' => 'company_list',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=23',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=23',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -755,7 +755,7 @@ return array (
 联系邮箱：123456@123.com',
     'parentdir' => 'company_list/',
     'catdir' => 'zonggongsi',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=24',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=24',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -811,7 +811,7 @@ return array (
 ',
     'parentdir' => 'company_list/',
     'catdir' => 'zhuhai',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=25',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=25',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -862,7 +862,7 @@ return array (
     'description' => '广东省惠州市惠城区演达大道金山龙庭三期别墅区黄金岛18号,0752-71863600,boby@boby.com',
     'parentdir' => '',
     'catdir' => 'company_info',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=27',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=27',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -913,7 +913,7 @@ return array (
     'description' => '合作伙伴',
     'parentdir' => '',
     'catdir' => 'partner',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=28',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=28',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -964,7 +964,7 @@ return array (
     'description' => 'partner1',
     'parentdir' => 'partner/',
     'catdir' => 'partner1',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=29',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=29',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -1015,7 +1015,7 @@ return array (
     'description' => 'partner2',
     'parentdir' => 'partner/',
     'catdir' => 'partner2',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=30',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=30',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -1066,7 +1066,7 @@ return array (
     'description' => 'partner3',
     'parentdir' => 'partner/',
     'catdir' => 'partner3',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=31',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=31',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -1117,7 +1117,7 @@ return array (
     'description' => 'partner4',
     'parentdir' => 'partner/',
     'catdir' => 'partner4',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=32',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=32',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -1168,7 +1168,7 @@ return array (
     'description' => 'partner5',
     'parentdir' => 'partner/',
     'catdir' => 'partner5',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=33',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=33',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -1219,7 +1219,7 @@ return array (
     'description' => '业务',
     'parentdir' => '',
     'catdir' => 'all_yewu',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=35',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=35',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -1270,7 +1270,7 @@ return array (
     'description' => '建筑工程',
     'parentdir' => 'all_yewu/',
     'catdir' => 'jianzhugongcheng',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=36',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=36',
     'items' => '4',
     'hits' => '0',
     'setting' => 'array (
@@ -1321,7 +1321,7 @@ return array (
     'description' => '市政工程',
     'parentdir' => 'all_yewu/',
     'catdir' => 'shizhenggongcheng',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=37',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=37',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -1372,7 +1372,7 @@ return array (
     'description' => '装修装饰',
     'parentdir' => 'all_yewu/',
     'catdir' => 'zhuangxiuzhuangshi',
-    'url' => 'http://mengzhicheng.com/index.php?m=content&c=index&a=lists&catid=38',
+    'url' => 'http://119.29.170.233:81/index.php?m=content&c=index&a=lists&catid=38',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (

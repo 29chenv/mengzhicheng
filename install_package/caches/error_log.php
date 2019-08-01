@@ -7441,3 +7441,5 @@
 <?php exit;?>08-01 11:08:26 | 8192 | preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead | phpcms\libs\classes\template_cache.class.php | 94
 <?php exit;?>08-01 11:14:04 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\modules\admin\index.php | 212
 <?php exit;?>08-01 11:14:04 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 11:22:16 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\modules\admin\index.php | 212
+<?php exit;?>08-01 11:22:16 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\libs\classes\update.class.php | 35
