@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="67a9f509-dd00-4280-97b6-a96c457f235d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_package/caches/error_log.php" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/caches/error_log.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/install_package/phpcms/templates/mzc/content/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/install_package/phpcms/templates/mzc/content/show.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +16,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/install_package/phpcms/templates/mzc/content/show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
+            <state relative-caret-position="126">
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#pre#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/install_package/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="255" column="30" lean-forward="true" selection-start-line="255" selection-start-column="30" selection-end-line="255" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,15 +100,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/install_package/phpcms/libs/classes/update.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/install_package/caches/configs/database.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -130,13 +132,14 @@
       <find>广东省惠州市惠城区云山西路2号帝景国际商务中心综合楼22层20号</find>
       <find>MZC</find>
       <find>siteid</find>
-      <find>mengzhicheng</find>
       <find>mysql_get_server_info()</find>
       <find>undefined function mysql_get_server_info()</find>
       <find>mysqlv</find>
       <find>119.29.170.233</find>
       <find>mysql_get_server_info</find>
       <find>http://mengzhicheng.com/</find>
+      <find>mengzhicheng</find>
+      <find>http://mengzhicheng.com</find>
     </findStrings>
     <replaceStrings>
       <replace>{MZC_PATH}images/</replace>
@@ -145,6 +148,7 @@
       <replace>广东省惠州市惠城区演达大道金山龙庭三期别墅区黄金岛18号</replace>
       <replace>mysqli_get_server_info</replace>
       <replace>http://119.29.170.233:81/</replace>
+      <replace>http://119.29.170.233:81</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -177,6 +181,7 @@
         <option value="$PROJECT_DIR$/install_package/caches/configs/system.php" />
         <option value="$PROJECT_DIR$/install_package/caches/configs/database.php" />
         <option value="$PROJECT_DIR$/install_package/phpcms/templates/mzc/content/list.html" />
+        <option value="$PROJECT_DIR$/install_package/index.html" />
         <option value="$PROJECT_DIR$/install_package/phpcms/templates/mzc/content/show.html" />
       </list>
     </option>
@@ -308,11 +313,46 @@
       <option name="project" value="LOCAL" />
       <updated>1564629300273</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <created>1564634617368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564634617368</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1">
+      <created>1564634704414</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564634704415</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1">
+      <created>1564634791582</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564634791582</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1">
+      <created>1564635158633</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564635158633</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1">
+      <created>1564640233477</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564640233477</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33667000" />
+    <option name="totallyTimeSpent" value="35194000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,7 +420,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新浏览器标签logo" />
     <MESSAGE value="更改为mysqli（php7）" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改为mysqli（php7）" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/install_package/statics/mzc/js/jquery.min.js">
@@ -663,10 +704,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/install_package/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="255" column="30" lean-forward="true" selection-start-line="255" selection-start-column="30" selection-end-line="255" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/install_package/phpcms/templates/mzc/content/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
+        <state relative-caret-position="126">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#pre#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
           </folding>
