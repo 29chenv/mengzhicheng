@@ -7443,3 +7443,9 @@
 <?php exit;?>08-01 11:14:04 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\libs\classes\update.class.php | 35
 <?php exit;?>08-01 11:22:16 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\modules\admin\index.php | 212
 <?php exit;?>08-01 11:22:16 | 2 | mysqli_get_server_info() expects exactly 1 parameter, 0 given | phpcms\libs\classes\update.class.php | 35
+<?php exit;?>08-01 11:32:57 | 2 | mysqli::__construct(): (HY000/1045): Access denied for user 'chenv_sql'@'localhost' (using password: YES) | phpcms\libs\classes\mysql.class.php | 111
+<?php exit;?>08-01 11:32:57 | 2 | mysqli_error(): Couldn't fetch mysqli | phpcms\libs\classes\mysql.class.php | 837
+<?php exit;?>08-01 11:32:57 | 2 | mysqli_errno(): Couldn't fetch mysqli | phpcms\libs\classes\mysql.class.php | 845
+<?php exit;?>08-01 11:32:57 | 2 | mysqli_errno(): Couldn't fetch mysqli | phpcms\libs\classes\mysql.class.php | 845
+<?php exit;?>08-01 11:32:57 | 2 | mysqli_error(): Couldn't fetch mysqli | phpcms\libs\classes\mysql.class.php | 837
+<?php exit;?>08-01 11:32:57 | 2 | mysqli::__construct(): (HY000/1045): Access denied for user 'chenv_sql'@'localhost' (using password: YES) | phpcms\libs\classes\mysql.class.php | 111
